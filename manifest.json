@@ -1,8 +1,8 @@
 {
     "name": "Escape Room Master Additional Tools",
     "version": "1.0",
-    "description": "Extra features for employees to run rooms more effectively and efficiently",
-    "permissions": ["activeTab", "declarativeContent","storage"],
+    "description": "Extra features to help employees running rooms",
+    "permissions": ["storage"],
     "content_scripts": [
     {
       "matches":
@@ -17,19 +17,19 @@
     },
     "browser_action": {
       "default_icon": {
-          "16": "images/get_started16.png",
-          "32": "images/get_started32.png",
-          "48": "images/get_started48.png",
-          "128": "images/get_started128.png"
+          "16": "images/puzzle16.png",
+          "32": "images/puzzle32.png",
+          "48": "images/puzzle48.png",
+          "128": "images/puzzle128.png"
         },
       "default_popup": "popup.html",
       "default_title": "More tools for running rooms!"
     },
     "icons": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/puzzle16.png",
+      "32": "images/puzzle32.png",
+      "48": "images/puzzle48.png",
+      "128": "images/puzzle128.png"
     },
     "manifest_version": 2
   }
